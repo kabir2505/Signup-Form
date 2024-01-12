@@ -1,0 +1,139 @@
+@media only screen and (max-width:600px){
+.image{
+    width:100vw;
+    position: static;
+    gap:10px;
+
+}}
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap:2px;
+    /* width:100vh;
+    height:100vh; */
+}
+.card{
+    margin-top: 0px;
+}
+*{
+    margin:0;
+
+}
+
+.image{
+    background-color: red;
+    background-image: url("static/photo-1704574155820-47a04256005d.avif");
+    background-size:550px;
+    background-size:40vw 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:40vw;
+    /* height:56.4vw; */
+    height: 100vh;
+    size:5px;
+
+    /* width: 100vw;
+    height: 100vh;
+    background-position: left;
+    background-repeat: no-repeat; */
+}
+
+.cardtext{
+    display: flex;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: xx-large;
+    color:antiquewhite;
+    background-color:rgba(0,0,0,0.5);
+    gap:10px;
+    justify-content: center;
+    width:17.2em;
+    text-align: center;
+    position:relative;
+    top:25vh;
+    
+   
+    
+
+}
+
+.odin{
+    margin:0;
+    padding: 0;
+    height: 10vh;
+}
+
+.content{
+
+    background-color: #fafafa;
+}
+.cont1{
+    margin-top: 120px;
+    margin-left:30px;
+    font-size: x-large;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.cont2{
+    margin-top:30px ;
+
+}
+.head1{
+    margin-top: 5px;
+    font-size: xx-large;
+    font-family: 'Titillium Web', sans-serif;
+    
+    margin-bottom: 15px;
+
+}
+
+.m1{
+    background-color:#ffffff ;
+    box-shadow:10px 5px 10px -2px rgb(12, 12, 12) ;
+    padding:25px;
+}
+
+.form{
+    margin-top: 15px;
+  
+    font-size:1REM;
+    letter-spacing: 1.8px;
+   
+}
+
+.main1{
+    display: flex;
+    gap:150px;
+    
+    
+}
+input{
+    width:300px;
+    height: 25px;
+    border-radius: 5px;
+    border-color:#E5E7EB;
+    font-family: sans-serif;
+    font-size:medium;
+}
+
+input:focus{
+    border-color: blue;
+
+}
+input:invalid{
+    border-color: red;
+}
+.button{
+    margin-top:35px;
+    margin-left: 50px;;
+}
+button{
+  height: 50px;
+  width:220px;
+  background: #d5eeff; 
+  border-radius: 8px;
+  box-shadow: 10px 5px 5px #e3e3e3; 
+  
+}
